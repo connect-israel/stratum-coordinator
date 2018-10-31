@@ -1,0 +1,102 @@
+{
+  "machine_id": "dev_share_coordinator",
+  "bitcoind": {
+    "bch": {
+      "network": "testnet",
+      "host": "localhost",
+      "port": 18333,
+      "user": "a",
+      "pass": "a",
+      "timeout": 600000,
+      "coin_type": "bch",
+      "options": {
+        "capabilities": [
+          "longpoll",
+          "coinbasetx",
+          "workid",
+          "coinbase/append"
+        ]
+      },
+      "block": {
+        "version": 536870912,
+        "coinbase_message": "xxx",
+        "deposit_address": "xx"
+      }
+    },
+    "btc": {
+      "network": "testnet",
+      "host": "localhost",
+      "port": 18332,
+      "user": "a",
+      "pass": "a",
+      "timeout": 600000,
+      "coin_type": "btc",
+      "options": {
+        "rules": [
+          "segwit"
+        ],
+        "capabilities": [
+          "longpoll",
+          "coinbasetx",
+          "workid",
+          "coinbase/append"
+        ]
+      },
+      "block": {
+        "version": 536870912,
+        "coinbase_message": "xxx",
+        "deposit_address": "xxx"
+      }
+    }
+  },
+  "stratum": {
+    "port": 3333,
+    "max_input_buffer_length": 10240,
+    "allow_tcp_proxy_protocol": true,
+    "method_call_timeout": 2000,
+    "redis": {},
+    "coin_types": [
+      "btc",
+      "bch"
+    ]
+  },
+  "report": {
+    "rabbitmq": {
+      "host": "localhost",
+      "port": 5672,
+      "login": "guest",
+      "password": "guest",
+      "exchange_name": "a",
+      "vhost": "testnet",
+      "managment_port": 8080,
+      "general_messages_exchange_name": "a"
+    }
+  },
+  "log": {
+    "console": {
+      "timestamp": true
+    }
+  },
+  "worker": {
+    "restart": {
+      "delay": 5000,
+      "limit": 0
+    }
+  },
+  "workersService": {
+    "host": "localhost",
+    "port": 4000,
+    "timeout": 1000
+  },
+  "workersRedis": {
+    "host": "localhost",
+    "port": "6379"
+  },
+  "db": {
+    "connectionLimit": 10,
+    "host": "localhost",
+    "user": "a",
+    "password": "a",
+    "database": "a"
+  }
+}

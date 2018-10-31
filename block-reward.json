@@ -1,0 +1,138 @@
+[
+  {
+    "height": 0,
+    "reward": 50
+  },
+  {
+    "height": 210000,
+    "reward": 25
+  },
+  {
+    "height": 420000,
+    "reward": 12.5
+  },
+  {
+    "height": 630000,
+    "reward": 6.25
+  },
+  {
+    "height": 840000,
+    "reward": 3.125
+  },
+  {
+    "height": 1050000,
+    "reward": 1.5625
+  },
+  {
+    "height": 1260000,
+    "reward": 0.78125
+  },
+  {
+    "height": 1470000,
+    "reward": 0.390625
+  },
+  {
+    "height": 1680000,
+    "reward": 0.1953125
+  },
+  {
+    "height": 1890000,
+    "reward": 0.09765625
+  },
+  {
+    "height": 2100000,
+    "reward": 0.04882812
+  },
+  {
+    "height": 2310000,
+    "reward": 0.02441406
+  },
+  {
+    "height": 2520000,
+    "reward": 0.01220703
+  },
+  {
+    "height": 2730000,
+    "reward": 0.00610351
+  },
+  {
+    "height": 2940000,
+    "reward": 0.00305175
+  },
+  {
+    "height": 3150000,
+    "reward": 0.00152587
+  },
+  {
+    "height": 3360000,
+    "reward": 0.00076293
+  },
+  {
+    "height": 3570000,
+    "reward": 0.00038146
+  },
+  {
+    "height": 3780000,
+    "reward": 0.00019073
+  },
+  {
+    "height": 3990000,
+    "reward": 0.00009536
+  },
+  {
+    "height": 4200000,
+    "reward": 0.00004768
+  },
+  {
+    "height": 4410000,
+    "reward": 0.00002384
+  },
+  {
+    "height": 4620000,
+    "reward": 0.00001192
+  },
+  {
+    "height": 4830000,
+    "reward": 0.00000596
+  },
+  {
+    "height": 5040000,
+    "reward": 0.00000298
+  },
+  {
+    "height": 5250000,
+    "reward": 0.00000149
+  },
+  {
+    "height": 5460000,
+    "reward": 7.4e-7
+  },
+  {
+    "height": 5670000,
+    "reward": 3.7e-7
+  },
+  {
+    "height": 5880000,
+    "reward": 1.8e-7
+  },
+  {
+    "height": 6090000,
+    "reward": 9e-8
+  },
+  {
+    "height": 6300000,
+    "reward": 4e-8
+  },
+  {
+    "height": 6510000,
+    "reward": 2e-8
+  },
+  {
+    "height": 6720000,
+    "reward": 1e-8
+  },
+  {
+    "height": 6930000,
+    "reward": 0
+  }
+]
