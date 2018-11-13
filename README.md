@@ -79,3 +79,6 @@ Eliran Zach
 Robert Ferentz  
 Adi biton  
 Yuval Heftman  
+
+## License
+[MIT](http://opensource.org/licenses/MIT) 
